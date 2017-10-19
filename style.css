@@ -51,6 +51,9 @@ p {
   font-size: 16px
 }
 
+a.twitter {
+  color: white;
+}
 
 nav.menu-nav ul li.btn{
   width: 150px;
@@ -86,6 +89,13 @@ nav.menu-nav ul li.btn{
     border-radius: 50px;
 }
 
+
+input.wpb_button {
+  font-size: larger;
+  background: black;
+  color: #DFF2F5 ;
+}
+
 .hit {
   padding:260px;
 }
@@ -100,11 +110,6 @@ nav.menu-nav ul li.btn{
 .parent {
   display:flex;
 }
-
-
-
-
-
 
 
 
@@ -148,6 +153,7 @@ nav.menu-nav ul li.btn{
 .video-article3 {
   display:flex;
   justify-content: row-reverse;
+  margin-bottom: 40px;
 }
 
 
@@ -167,9 +173,18 @@ nav.menu-nav ul li.btn{
 
 
 
-
 footer {
-    background-color: linear-gradient(white , #21748A ) ;
-    padding: 10px;
+    background-color: black ;
+    padding: 30px;
+    font-size: 25px;
+    font-family: monospace;
+    
+}
+
+input.contact {
+  background-color: black;
   font-family: monospace;
+  font-size: 25px;
+    text-align: center;
+    color: white;
 }
